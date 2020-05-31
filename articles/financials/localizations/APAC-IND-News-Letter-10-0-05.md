@@ -107,9 +107,11 @@ This feature was released in AppAX10.0.4. We are providing more details on this 
 
 2.In the Reference field, select the financial dimension to link to the site inventory dimension.
 
-3.Click Sites to open the Sites form. The financial dimension that user selected in the Reference field is displayed on the Financial dimensions Fast Tab,where user can also select a financial dimension value for the dimension.
+3.Click Sites to open the Sites form. The financial dimension that user selected in the Reference field is displayed 
+  on the Financial  dimensions Fast Tab,where user can also select a financial dimension value for the dimension.
 
-4.Select a site > On the Financial dimensions Fast Tab, select a financial dimension value. The specified financial dimension value is associated with the selected site.
+4.Select a site > On the Financial dimensions Fast Tab, select a financial dimension value. The specified financial
+  dimension value is associated with the selected site.
 
 5.Repeat this step for each site.
 
