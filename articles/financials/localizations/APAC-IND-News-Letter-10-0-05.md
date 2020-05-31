@@ -104,12 +104,17 @@ This feature was released in AppAX10.0.4. We are providing more details on this 
 ## Process Flow : 
 
 1.Click Inventory management > Setup > Posting > Dimension link.
+
 2.In the Reference field, select the financial dimension to link to the site inventory dimension.
-3.Click Sites to open the Sites form. The financial dimension that user selected in the Reference field is displayed on the Financial dimensions Fast Tab, 
-  where user can also select a financial dimension value for the dimension.
+
+3.Click Sites to open the Sites form. The financial dimension that user selected in the Reference field is displayed on the Financial dimensions Fast Tab,where user can also select a financial dimension value for the dimension.
+
 4.Select a site > On the Financial dimensions Fast Tab, select a financial dimension value. The specified financial dimension value is associated with the selected site.
+
 5.Repeat this step for each site.
+
 6.Create stock transfer order Inventory management > Outbound Orders>Transfer Order >Stock transfer order 
+
 7.On Stock order line Click Financial dimension tab > Line details > Default financial dimension. 
 
 ## Simplified way to address Reverse charge transaction  as per govt. Clarification  – A general guidance  
