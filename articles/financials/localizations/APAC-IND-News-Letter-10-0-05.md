@@ -51,25 +51,14 @@ It provides following features or fixes:
  
 In most of the taxation system, there is concept of tax rate type, like standard tax rate, reduced tax rate, super reduced tax rate, etc. 
 In India GST, there are following five slabs: 
-Rate   | Type         | Products                                                                                                                                                                                                         |
-+--------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|        |              |                                                                                                                                                                                                                  |
-| 0%     | Nil          | Basic foods, including: fish, meat, dairy, vegetables, bread,   salt. Postal services. Books and newspapers. Accomodiation below Rs 999 per   night                                                              |
-+--------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|        |              |                                                                                                                                                                                                                  |
-| 5%     | Low          | Household necessities such as edible   oil, sugar, spices, tea, and coffee (except instant) are included. Coal   , Mishti/Mithai (Indian Sweets) and Life-saving drugs are also covered under   this GST slab    |
-+--------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|        |              |                                                                                                                                                                                                                  |
-| 12%    | Standard1    | This includes computers and processed food                                                                                                                                                                       |
-+--------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|        |              |                                                                                                                                                                                                                  |
-| 18%    | Standard2    | Hair oil, toothpaste and soaps, capital goods and industrial                                                                                                                                                     |
-|        |              |                                                                                                                                                                                                                  |
-|        |              | intermediaries are covered in this slab                                                                                                                                                                          |
-+--------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|        |              |                                                                                                                                                                                                                  |
-| 28%    | High         | Luxury items such as small cars , consumer durables like AC and   Refrigerators, premium cars, cigarettes and aerated drinks , High-end   motorcycles  are included here.                                        |
-+--------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rate       | Type             | Products                                                                                                                                                                                                             |
+|------------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     0%     |     Nil          |     Basic foods, including: fish, meat, dairy, vegetables, bread,   salt. Postal services. Books and newspapers. Accomodiation below Rs 999 per   night                                                              |
+|     5%     |     Low          |     Household necessities such as edible   oil, sugar, spices, tea, and coffee (except instant) are included. Coal   , Mishti/Mithai (Indian Sweets) and Life-saving drugs are also covered under   this GST slab    |
+|     12%    |     Standard1    |     This includes computers and processed food                                                                                                                                                                       |
+|     18%    |     Standard2    |     Hair oil, toothpaste and soaps, capital goods and industrial     intermediaries are covered in this slab                                                                                                         |
+|     28%    |     High         |     Luxury items such as small cars , consumer durables like AC and   Refrigerators, premium cars, cigarettes and aerated drinks , High-end   motorcycles  are included here.                                        |
+
 Now you can associate the Tax Rate Type to Released Product, Procurement/Sales categories and Charge code.
 
 ![Non GST item](media/IND-GST-Non GST.png)
