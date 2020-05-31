@@ -40,6 +40,7 @@ You can learn more about the shipped features in
 During the process of importing tax setup, system will validate the data correctness for the master data like HSN, SAC, etc., 
 and the data duplication. Duplicate data means the lookup records which result in the same tax rate, load on inventory %, etc. 
 It can be turned on in feature management workspace.
+
 ![Non GST item](media/IND-GST-Non GST.png)
 
 ## Tax information enabled for “Procurement Category”
@@ -47,6 +48,7 @@ It can be turned on in feature management workspace.
 ![Non GST item](media/IND-GST-Non GST.png)
  
 ## Enable multi-batch processing for GSTR reports
+
 1.Turn on the multi-batch processing feature
 
 Workspaces > Feature management, and turn on the Enable multi-batch processing for GSTR reports feature
@@ -64,21 +66,21 @@ For example, select GER export to GSTR CSV__Merged. This file is generated as a 
 ![Non GST item](media/IND-GST-Non GST.png)
 
 ### Document link : 
+
 (https://docs.microsoft.com/en-us/dynamics365/finance/localizations/apac-ind-gst-multi-batch-processing-gstr-return)
 
 # Critical Fixes 
 
 -	Unable to view the transaction ID in posted tax document transaction and posted tax component transaction after adding column.   
--	Accounting entry issue on import Purchase order invoicing when invoice is posted with reference to product receipt Quantity scenarios.   
+-	Accounting entry issue on import Purchase order invoicing when invoice is posted with reference to product receipt Quantity scenarios.
 -	Indian legal entity customer invoicing takes too long time.   
 -	Base amount should not be "Zero" for sales order when exempt check box is marked   
--	CGST & SGST should be applicable for intra-state transfer order in case the GST registration number are different in two warehouses .   
+-	CGST & SGST should be applicable for intra-state transfer order in case the GST registration number are different in two warehouses .
 -	TDS is not working for customer with TDS threshold enabled.   
 -	Reversal of invoice Journal posted with TDS display incorrect total invoice amount .  
 -	Withholding Tax (TDS) threshold not working correctly in normal TDS deduction scenario    
 -	Wrong TDS calculation in open vendor invoice screen   
 -	Incorrect calculation of GST for Credit note   
-
 
 # Upcoming critical fixes in 10.0.7 
 
@@ -89,5 +91,5 @@ For example, select GER export to GSTR CSV__Merged. This file is generated as a 
 -	System is not considering threshold defined in Withholding Tax  
 -	Incorrect calculation of GST for Credit note  
 -	Wrong TDS Calculation in Open Vendor invoice screen  
--	The field ‘Business verticals’ for the GST registration number in the " Enterprise Tax Registration Numbers "  form should be editable and not greyed out  
-
+-	The field ‘Business verticals’ for the GST registration number in the " Enterprise Tax Registration Numbers "  
+  form should be editable and not greyed out  
