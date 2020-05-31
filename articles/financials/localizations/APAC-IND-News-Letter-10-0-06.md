@@ -48,10 +48,15 @@ It can be turned on in feature management workspace.
  
 ## Enable multi-batch processing for GSTR reports
 1.Turn on the multi-batch processing feature
-Workspaces > Feature management, and turn on the Enable multi-batch processing for GSTR reports feature 
+
+Workspaces > Feature management, and turn on the Enable multi-batch processing for GSTR reports feature
+
 2.Generate a GSTR report
-Tax > Inquiries and reports > Sales tax reports > GER export to GSTR CSV. 
+
+Tax > Inquiries and reports > Sales tax reports > GER export to GSTR CSV.
+
 3.Get CSV files
+
 Organization administration > Electronic reporting > Electronic reporting jobs. 
 Select the comma-separated values (CSV) files that you want.
 For example, select GER export to GSTR CSV__Merged. This file is generated as a merged file. 
