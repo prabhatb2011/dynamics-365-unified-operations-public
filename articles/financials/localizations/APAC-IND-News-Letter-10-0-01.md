@@ -39,15 +39,15 @@ You can learn more about the shipped features in
 ## New Configuration 
 The following configurations, which you can get from the Shared Asset Library in LCS and use it in version 10.0.1 and above:
  
-•	GSTReturns.version.14.xml
-•	GST Returns model mapping.version.14.5.xml
-•	GSTR1CSV.version.14.28.xml
-•	GSTR2CSV.version.14.32.xml
+- GSTReturns.version.14.xml
+- GST Returns model mapping.version.14.5.xml
+- GSTR1CSV.version.14.28.xml
+- GSTR2CSV.version.14.32.xml
  
 It solved the following GSTR issues:
-•	Total Item Discount Amount is not coming in GSTR.
-•	Item Unit Of Measurement should show both unit and its description, and for service item, it should be "Nos".
-•	No customer billing name for stock transfer in GSTR.
+- Total Item Discount Amount is not coming in GSTR.
+- Item Unit Of Measurement should show both unit and its description, and for service item, it should be "Nos".
+- No customer billing name for stock transfer in GSTR.
 
 ## Non-GST item
 You can create Non-GST item, and it would be defaulted into Tax Information in the taxable transactions.
