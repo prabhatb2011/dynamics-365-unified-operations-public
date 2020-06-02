@@ -43,18 +43,18 @@ Charges allocation on a sales order
 
 ## Sales order :
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Charge allocation-10.0.9.png)
 
- In the header user can mark "Assessable value" on charge line . Based on this selection  distributed charge value added 
- to line item taxable value and taxes are computed accordingly 
+In the header user can mark "Assessable value" on charge line . Based on this selection  distributed charge value added 
+to line item taxable value and taxes are computed accordingly 
  
 ## Defaulting of customer business address in the tax information 
 
- This feature will default customer business address in the tax information tab of a sales transaction and company address
- in the tax information tab of a direct delivery purchase order.
- User can enable this feature through feature management. 
+This feature will default customer business address in the tax information tab of a sales transaction and company address
+in the tax information tab of a direct delivery purchase order.
+User can enable this feature through feature management. 
  
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Default Business address-10.0.9.png)
 
 By using Direct delivery functionality user can create deliveries directly from vendors to customers,
 reducing delivery time and order administration. During direct delivery when purchase order is created Customer 
@@ -62,10 +62,11 @@ Delivery address defaults from Sales order form . However from the GST prospecti
 default in tax information. 
 
 ## New GSTR Return offline tool (Trial Version Prototype) for India in Dynamics 365 Finance 
+
 Under New GSTR return process GST ANX-1 (Annexure of  supplies) and Annexure of Inward Supplies 
 (GST ANX-2) will be filed as part of FORM GST RET-1 (Normal)  returns. User can generate following GSTR returns 
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/New GSTR offline tool-10.0.9.png)
 
 Please find all the details about the New GSTR Return offline Tool report in KB article:
 (https://support.microsoft.com/en-us/help/4549665)  
@@ -80,16 +81,16 @@ Dynamics 365 Finance and the GTE, and the hit posting profile.
 
 Step 1: Append &debug=vs%2CconfirmExit& to D365 AOS URL and press enter to open a new session
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/GTE debug mode-10.0.9.png)
 
 Step 2: Go to Tax > setup > Tax configuration > Tax setup and check ‘Check model mapping discrepancies’ parameter
  
- ![Non GST item](media/IND-GST-Non GST.png)
+ ![](media/GTE debug mode-2-10.0.9.png)
  
 Step 3: Calculate tax for the transaction or re-calculate tax for the transaction, and then click Save to save 
 the ‘GTETroubleshotingLog.txt, and provide the file to Microsoft for investigation.
  
-  ![Non GST item](media/IND-GST-Non GST.png)
+  ![](media/GTE debug mode-3-10.0.9.png)
  
 # Critical Fixes 
 
@@ -103,10 +104,12 @@ the ‘GTETroubleshotingLog.txt, and provide the file to Microsoft for investiga
 -	Journal voucher description truncation issue for GST transaction. 
 -	Stock transfer order shipment voucher is not showing in GSTR-2 Report 
 -	Direct Delivery Purchase order , customer address getting flow in tax information 
--	GSTIN registration numbers are TDS  registration number are not sharing with the other legal entities while importing from the data management module even after sharing option enable . 
+-	GSTIN registration numbers are TDS  registration number are not sharing with the other legal entities while 
+  importing from the data management module even after sharing option enable . 
 -	GST tax amount is deducted twice from the sale of assets net amount when price inclusive tax option enabled.
 -	System is throwing error " Object reference not set to an instance of an object" while settling the vendor invoice transactions. 
--	In Purchase order invoice HSN/SAC numbers are not populating from PO when selecting PO using "+" sing (Used for booking consolidated invoices) 
+-	In Purchase order invoice HSN/SAC numbers are not populating from PO when selecting PO using "+" sign 
+  (Used for booking consolidated invoices) 
 -	List all posting profile in GTE trouble shooting file when enabled debug mode. 
 -	Transfer order posting not picking up IGST account .
 
@@ -116,7 +119,8 @@ the ‘GTETroubleshotingLog.txt, and provide the file to Microsoft for investiga
 - Import order-over-delivery setup respected at invoice registration stage 
 -	Enable date time tracking for tax run time lookup condition table 
 -	Transaction type not showing in case of Tax Journal posting 
--	Unable to generate recurring invoice as getting the error message " The menu item with name customer recurrence invoice service operation could not be opened" . 
+-	Unable to generate recurring invoice as getting the error message " The menu item with name customer recurrence 
+  invoice service operation could not be opened" . 
 -	Tax calculation is wrong when post customer discount through general Journal 
 -	Adjusted amount origin field showing wrong value. 
 -	Difference between sales tax payment and actual transaction posted to tax authority .
