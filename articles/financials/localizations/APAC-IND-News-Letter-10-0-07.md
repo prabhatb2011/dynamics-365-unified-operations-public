@@ -44,13 +44,13 @@ like add tax measures, configure tax calculation formula, configure tax posting 
 
 You can enable the feature in feature management workspace, feature name is "Enable creating tax component with pre-defined rules"
 
- ![Non GST item](media/IND-GST-Non GST.png)
+ ![](media/Tax code with predefined-10.0.7.png)
  
  With the feature enabled, there are several controls enabled in the dialog box, you can use them to control the behavior 
  of the tax component. Refer (https://docs.microsoft.com/en-us/dynamics365/finance/localizations/tax-engine-create-tax-component)
  for details.
  
- ![Non GST item](media/IND-GST-Non GST.png)
+ ![](media/Tax code with predefined -II-10.0.7.png)
  
 # Critical Fixes 
 
@@ -70,7 +70,8 @@ You can enable the feature in feature management workspace, feature name is "Ena
 
 # Upcoming critical fixes in 10.0.8 
 
-- Tax amount showing in Purchase order totals and Purchase Invoice total even the transaction is posted with 100%  Reverse charge basis. 
+- Tax amount showing in Purchase order totals and Purchase Invoice total even the transaction is posted
+  with 100%  Reverse charge basis. 
 -	TDS transactions are not updated in withholding tax transaction (TDS/TCS)  report when settled Prepayment with Invoice. 
 -	Assessable value is not getting updated after removing charge code form the PO Invoice line. 
 -	Change of vendor in Purchase Requisition in not refreshing the vendor tax information in the tax information form 
