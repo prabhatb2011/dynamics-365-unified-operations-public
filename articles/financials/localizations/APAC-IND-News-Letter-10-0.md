@@ -71,7 +71,7 @@ You can multi-select lookup columns, and search available columns.
 
 - Cannot synchronize extended configuration if you change the data model in your extended tax document.
 
- ![](media/Cannot syncronise-10.0.png)
+  ![](media/Cannot syncronise-10.0.png)
 
 - Exclude the transactions without GST from GSTR. If there is no GST applicable for the transaction (unless it's exempt or Non-GST),
   it will not be in the GSTR
