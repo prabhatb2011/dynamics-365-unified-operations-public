@@ -41,11 +41,11 @@ During the process of importing tax setup, system will validate the data correct
 and the data duplication. Duplicate data means the lookup records which result in the same tax rate, load on inventory %, etc. 
 It can be turned on in feature management workspace.
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Validating Non-Existing10.0.6.png)
 
 ## Tax information enabled for “Procurement Category”
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Procurement Category-10.0.6.png)
  
 ## Enable multi-batch processing for GSTR reports
 
@@ -63,7 +63,7 @@ Organization administration > Electronic reporting > Electronic reporting jobs.
 Select the comma-separated values (CSV) files that you want.
 For example, select GER export to GSTR CSV__Merged. This file is generated as a merged file. 
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Enabled Multiple batch processing-10.0.6.pngg)
 
 ### Document link : 
 
