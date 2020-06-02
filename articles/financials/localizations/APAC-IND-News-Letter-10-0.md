@@ -46,6 +46,7 @@ The following configurations, which you can get from Shared Asset Library in LCS
 You can differentiate customer GST registration number from vendor GST registration number in tax setup.
 
 ![](media/GST registration Number-10.0.png)
+
 You can choose to determine the tax rate based on invoice date for the purchase transactions, like purchase invoice.
 
 ![](media/Tax rate on Invoice date 10.0.png)
@@ -80,6 +81,7 @@ You can multi-select lookup columns, and search available columns.
 
 - Total Item Discount Amount is not coming in GSTR.
 - Item Unit Of Measurement should show both unit and its description.
-- Total transaction value in GSTR is not equal to invoice amount for transaction with price include tax- 	No customer billing name for stock transfer in GSTR
+- Total transaction value in GSTR is not equal to invoice amount for transaction with price include tax-
+  No customer billing name for  stock transfer in GSTR
 -	No defaulting logic for Original GST transaction ID for credit note 
  
