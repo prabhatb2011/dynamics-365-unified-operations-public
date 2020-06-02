@@ -45,30 +45,32 @@ The following configurations, which you can get from Shared Asset Library in LCS
  
 You can differentiate customer GST registration number from vendor GST registration number in tax setup.
 
-![](https://github.com/prabhatb2011/dynamics-365-unified-operations-public/blob/Prabhat-Docs/articles/financials/localizations/media/GST%20registration%20Number-10.0.png)
+![](media/GST registration Number-10.0.png)
 You can choose to determine the tax rate based on invoice date for the purchase transactions, like purchase invoice.
 
-![](https://github.com/prabhatb2011/dynamics-365-unified-operations-public/blob/Prabhat-Docs/articles/financials/localizations/media/Tax%20rate%20on%20Invoice%20date%2010.0.png)
+![](media/Tax rate on Invoice date 10.0.png)
 
 You can create Non-GST transaction, and it will be reflected in GSTR.
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Non GST transaction 10.0.png)
 
 ## Import/export tax setup
 
 You can import/export tax setup for Rate, Reverse Charge Percentage, Load on Inventory Percentage, etc. 
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Import Export tax setup 10.0.png)
 
 ## GTE designer enhancement
 
 You can multi-select lookup columns, and search available columns.
 
+![](media/Design enhancement-10.0.png)
+
 # Critical Fixes 
 
 - Cannot synchronize extended configuration if you change the data model in your extended tax document.
 
- ![Non GST item](media/IND-GST-Non GST.png)
+ ![](media/Cannot syncronise-10.0.png)
 
 - Exclude the transactions without GST from GSTR. If there is no GST applicable for the transaction (unless it's exempt or Non-GST),
   it will not be in the GSTR
