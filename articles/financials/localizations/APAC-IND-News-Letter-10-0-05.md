@@ -88,6 +88,7 @@ order to mitigate difference for custom duty
 ### How to enable : Tax -> Setup -> Tax Configuration -> Tax Setup -> Parameter
 
 ![](media/Adjust Tax as accounting currency-10.0.5.png)
+
 ![](media/Adjust Tax as accounting currency-II-10.0.5.png)
 
 ## Financial dimension linked to the inventory dimension site is not auto-populated in stock transfer receipt order line
@@ -140,6 +141,7 @@ order to mitigate difference for custom duty
 - Create new posting account "Tax payable reverse charge" 
 
 ![](media/Tax payable reverse charge-10.0.5.png)
+
 ![](media/Tax payable reverse charge-II-10.0.5.png)
 
 - Identify Reverse charge liability in separate account such as " Tax Payable (Reverse charge)" which should be defined as "Ledger account" instead of "Tax account" because Reverse charge liability cannot directly settled with input tax credit . It must be paid separately first from the "Cash Ledger account" .
