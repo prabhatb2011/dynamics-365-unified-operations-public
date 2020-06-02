@@ -46,10 +46,9 @@ The following configurations, which you can get from Shared Asset Library in LCS
 You can differentiate customer GST registration number from vendor GST registration number in tax setup.
 
 ![](https://github.com/prabhatb2011/dynamics-365-unified-operations-public/blob/Prabhat-Docs/articles/financials/localizations/media/GST%20registration%20Number-10.0.png)
- 
 You can choose to determine the tax rate based on invoice date for the purchase transactions, like purchase invoice.
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](https://github.com/prabhatb2011/dynamics-365-unified-operations-public/blob/Prabhat-Docs/articles/financials/localizations/media/Tax%20rate%20on%20Invoice%20date%2010.0.png)
 
 You can create Non-GST transaction, and it will be reflected in GSTR.
 
