@@ -36,7 +36,9 @@ You can learn more about the shipped features in
 -[ What's new or changed in Finance and Operations version ] (https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-changed-10-0-11)
 
 # New Features
-## GST Tax settlement as per new settlement rules  (vide Circular No. 98/17) 
+
+## GST Tax settlement as per new settlement rules  (vide Circular No. 98/17)
+
 As per new amended GST Law : The following sequence is required to be maintained 
 | IGST Liability | CGST liability | SGST Liability  |
 |----------------|----------------|-----------------|
@@ -47,7 +49,7 @@ As per new amended GST Law : The following sequence is required to be maintained
 ### New settlement rule can be configured as below :  
 ### Path :- Tax > Setup > Sales tax hierarchies > View > Setoff rules for sales tax hierarchies  
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/New set off Rules-10.0.11.png)
 
 New tax settlement change has been incorporated in Tax settlement  hierarchy. User can define tax set off hierarchy for a tax component
 with any  tax settlement priority. In existing solution by default each tax component recoverable amount will settle against tax payable 
