@@ -45,18 +45,19 @@ GSTR report generating overall time reduced 30%  by replacing line by line data 
 ## Enable to delete the selected (multiple) tax lookup condition record
 Besides delete one single record and delete all records, delete select records is now supported to improve operation efficiency
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Deleted multiple tax lookup-10.0.3.png)
 
 ## Enable tax calculation based on accounting currency for import/export order
 Refer the [what's new of 10.0.3 ] (https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3#calculate-tax-in-accounting-currency-for-importexport-order)
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Tax calculation on accounting currency-10.0.3.png	)
 
 ## Please use Tax transaction inquiry for TDS/TCS instead of Post withholding tax
 
 # Critical Fixes 
 
-- Create an export order , there are both BCD and SWS, when it's get posted, there is only posting of BCD. Following configuration is needed to solve the issue.
+- Create an export order , there are both BCD and SWS, when it's get posted, there is only posting of BCD. 
+  Following configuration is needed to solve the issue.
 -	Taxable Document.version.81.xml
 -	Taxable Document (India).version.81.138.xml
 -	Tax (India GST).version.81.138.248.xml
@@ -68,7 +69,7 @@ Refer the [what's new of 10.0.3 ] (https://docs.microsoft.com/en-us/dynamics365/
 -	Tax column not updated with tax value in Invoice journal report
 -	Delivery address does not autoflow on the tax information form for the SO lines
 -	HSN or SAC Code is not editable in tax Information sales return order after delivery 
---Cannot post FTI & confirm PO because of one or more accounting distributions is either over-distributed
+- Cannot post FTI & confirm PO because of one or more accounting distributions is either over-distributed
 -	Assessable value not getting updated in sales order after price group(personalized field) is updated
 -	Charges on header level don’t calculate sales tax amount for India entity
 -	Invoice number does not come in posted withholding tax inquiry after posting withholding tax adjustment journal
