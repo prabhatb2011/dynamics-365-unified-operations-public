@@ -48,7 +48,7 @@ Procurement and Sourcing Module -> Setup -> Procurement and Sourcing Parameters
 ### Update over delivery Quantity: 
 Invoice registration Page -> Select Import invoice above -> Update Receive Quantity
 
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/Over Delivery -import order-10.0.10.png)
 
 ## TDS on Foreign vendor transaction 
 TDS on foreign vendor invoice gives Voucher imbalance error . The transactions on voucher do not balance . 
@@ -61,18 +61,7 @@ As per rule 26 of Income tax act TDS on foreign currency transaction is converte
 
 Setup TDS exchange rate as TDS and Accounting currency exchange rate type as Default in Ledger form
 
-![Non GST item](media/IND-GST-Non GST.png)
-
-It solved the following GSTR issues:
-- Total Item Discount Amount is not coming in GSTR.
-- Item Unit Of Measurement should show both unit and its description, and for service item, it should be "Nos".
-- No customer billing name for stock transfer in GSTR.
-
-## Non-GST item
-You can create Non-GST item, and it would be defaulted into Tax Information in the taxable transactions.
-
-
-![Non GST item](media/IND-GST-Non GST.png)
+![](media/TDS on Foreign currency-10.0.10.png
 
 ### Accounting entries :
 | Description                | Dr.(US$)     | Dr.(INR)          | Cr.(US$)                | Cr.(INR)                                        |
@@ -90,18 +79,23 @@ You can create Non-GST item, and it would be defaulted into Tax Information in t
 -	Transaction type not showing in case of tax Journal posting . 
 -	Unable to generate recurring Free Text Invoice getting error 
   Path : Accounts Receivable>Recurring Invoice>Free Text Invoice template 
--	Difference is appearing between sales tax payment and actual transaction posted to tax authorities. Through this fix it is ensured that Sales tax settlement amount and actual amount posted to tax authority is matched. 
--	Adjusted amount origin field showing wrong value - System is picking the adjusted base amount posted in the initial transaction and same base amount is fetching for subsequent transactions. 
--	Tax calculation is appearing wrong when discount is applied through General Journal in multi-line transaction. (Discount ledger account either Debit or Credit) 
+-	Difference is appearing between sales tax payment and actual transaction posted to tax authorities. 
+  Through this fix it is ensured that Sales tax settlement amount and actual amount posted to tax authority is matched. 
+-	Adjusted amount origin field showing wrong value - System is picking the adjusted base amount posted in the 
+  initial transaction and same base amount is fetching for subsequent transactions. 
+-	Tax calculation is appearing wrong when discount is applied through General Journal in multi-line transaction.
+  (Discount ledger account either Debit or Credit) 
 
   Two scenarios are covered :
+  
   - Creating credit note to customer (GST is calculating negative value for discount) 
   - Creating Invoice/Debit note to customer (GST is calculating positive value for discount) 
 
 
 # Upcoming critical fixes in 10.0.11 
 
--	When created one main vendor with multiple sub-vendor. Currently system is picking the main supplier name and address and displaying in GSTR-2 ,
+-	When created one main vendor with multiple sub-vendor. Currently system is picking the main supplier name and
+  address and displaying in GSTR-2 ,
   which not selected in the Tax Information at the time of posting . 
 -	Withholding tax Journal is crated to  adjust the withholding tax (TDS) amount and select the voucher transaction for adjustment. 
   When post the Journal system is throwing an error log once the transaction has been selected and transfer to General Journal. 
@@ -110,8 +104,10 @@ You can create Non-GST item, and it would be defaulted into Tax Information in t
 -	System through error while running withholding (TDS) tax payment .
 -	Wrong Tax information in Sales order created from sales agreement. In this issue address field is populating legal entity address
   instead of warehouse address. 
--	When user posted Free text Invoice with GST tax amount and do rounding off setup under  currencies  system not rounding invoice amount
+-	When user posted Free text Invoice with GST tax amount and do rounding off setup under  currencies  system not
+  rounding invoice amount
   for customer sub-ledger account but customer main ledger is rounding off correctly in voucher.  
-  Path >General ledger module>> currencies >>currencies Go to INR currencies >> Go to Rounding rules >>General rounding rule 0.01 >> Sales order rounding rule 1.00 
+  Path >General ledger module>> currencies >>currencies Go to INR currencies >> Go to Rounding rules >>General rounding 
+  rule 0.01 >> Sales order rounding rule 1.00 
 -	TDS section code and invoice number is not  appearing in TDS inquiries 
  
