@@ -37,9 +37,10 @@ You can learn more about the shipped features in
 
 # New Features
 ## Define GST reference number sequence group
+
 User can define separated GST reference number sequence group for Free Text Invoice, Stock transfer receipt and Stock transfer shipment. 
  
- ![Non GST item](media/IND-GST-Non GST.png)
+ ![](media/GST Reference number sequence-10.0.4.png)
  
  ## Financial dimension linked to the inventory dimension site will be auto-populated in stock transfer receipt order line
  
